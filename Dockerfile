@@ -23,6 +23,5 @@ COPY config.yaml /app/
 COPY static /app/static
 COPY dist  /app/dist
 
-
 WORKDIR /app
 ENTRYPOINT ["/app/http-server"]
